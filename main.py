@@ -10,14 +10,15 @@ print("""welcome to my brief string samples file.
 
 #basic print statement
 print("Good Morning!")
+#result should show Good Morning!
 
 #changing capital letters into lower case letters
 print("DOGS ARE SILLY ANIMALS".lower())
-
+#result should be dogs are silly animals
 
 #changing lower case letters into upper case letters
 print("dogs are silly animals".upper())
-
+#result should be DOGS ARE SILYY ANIMALS
 
 #using "camel" case
 #strings which have capitols as first letter of words within a string
@@ -25,6 +26,7 @@ print("dogs are silly animals".upper())
 print("hogs"+"Sausage"+"Bacon"+"Lard")
 #plus sign and no spaces important to achieve a camel case string
 #this is just one way to achieve this, but this looks easiest of all
+#result should be hogsSausageBaconLard
 
 #concatination of strings
 #use the + sign to make strings longer
@@ -33,12 +35,17 @@ print("hogs"+"Sausage"+"Bacon"+"Lard")
 print( "pizza" + "is" + "tasty" + "food")
 #notice this does not allow for spaces
 #adding spaces inside the quotes will separate words, but won't be #"concatination"
-
+#result should be pizzaistastyfood
 #printing multiple lines of strings
 #Uses the /n for one way to do this
 print(''"Count to three!\n" "One\n" "Two\n" "Three\n"'')
 #an additional quote will be needed to enclose the whole line of #strings
 #Quotes around the strings and the line of strings must be different #style, or it won't work
+#result should be:
+#Count to three!
+#One
+#Two
+#Three
 
 #string length
 #this is the len() function
@@ -53,17 +60,23 @@ print(len("Joeeatssloppyjoes"))
 txt = "If I were rich, I would buy an island"
 print("r" in txt)
 
-#the result will be "True", or "False"
+#the result will be True, or False
+#this example should be True
 
 #searching if a character is NOT in a string
 txt = "If I were rich, I would buy an island"
 print("Q" in txt)
+#result should be True or False
+#in this example, it will be False
 
 #capitalizing just the first letter of a string
 print("elvis".capitalize())
+#result should be Elvis
 
 #converting first character in each word to upper case
 print("mary had a large dinosaur". title())
+#result should be
+#Mary Had A Large Dinosaur
 
 
 #count the number of times a certain item is in a string
@@ -73,6 +86,7 @@ print("hippity " + "hop " + "bunny")
 txt = "hippity  hop  bunny"
 x = txt.count("h")
 print(x)
+#Result should be 2, in this example
 
 #looping a string
 for x in "parachute":
