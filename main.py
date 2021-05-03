@@ -38,8 +38,7 @@ print( "pizza" + "is" + "tasty" + "food")
 #Uses the /n for one way to do this
 print(''"Count to three!\n" "One\n" "Two\n" "Three\n"'')
 #an additional quote will be needed to enclose the whole line of #strings
-#Quotes ariound the strings and the lie of strings must be different #style, or it won't work
-
+#Quotes around the strings and the line of strings must be different #style, or it won't work
 
 #string length
 #this is the len() function
@@ -50,11 +49,15 @@ print(len("Joeeatssloppyjoes"))
 #return will be 17
 
 
-#searching for a character in a string
+#searching if a character in a string
+txt = "If I were rich, I would buy an island"
+print("r" in txt)
 
+#the result will be "True", or "False"
 
 #searching if a character is NOT in a string
-
+txt = "If I were rich, I would buy an island"
+print("Q" in txt)
 
 #capitalizing just the first letter of a string
 print("elvis".capitalize())
@@ -71,7 +74,10 @@ txt = "hippity  hop  bunny"
 x = txt.count("h")
 print(x)
 
-#find items in a string
-
+#looping a string
+for x in "parachute":
+    print(x)
+    #result will be all the characters printed on their own line
+    #indented print is important
 
 #
